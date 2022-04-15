@@ -1,0 +1,5 @@
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BACKSLASH = /    // 不能两个“/”在一起，也不能通过“\”转义，声明一个“/”变量
+HOST_URL = "https:$BACKSLASH/www.xxx-Debug.com"
